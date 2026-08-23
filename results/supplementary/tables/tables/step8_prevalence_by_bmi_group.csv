@@ -1,0 +1,7 @@
+bmi_group,n,positives,prevalence,group_variable
+Underweight,405,3,0.007407407407407408,bmi_group
+Normal,5706,135,0.02365930599369085,bmi_group
+Overweight,5943,255,0.042907622412922765,bmi_group
+Obesity I,3647,263,0.07211406635590896,bmi_group
+Obesity II,1639,136,0.08297742525930446,bmi_group
+Obesity III,1215,141,0.11604938271604938,bmi_group

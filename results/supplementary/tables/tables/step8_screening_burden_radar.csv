@@ -1,0 +1,3 @@
+group,disease_prevalence,mean_age,mean_bmi,mean_systolic_bp,lab_availability
+Female,0.0,1.0,1.0,0.0,0.5
+Male,1.0,0.0,0.0,1.0,0.5

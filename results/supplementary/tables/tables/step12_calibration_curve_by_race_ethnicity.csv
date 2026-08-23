@@ -1,0 +1,37 @@
+calibration_bin,mean_predicted,observed_rate,n,group,group_variable
+0,0.027401824,0.0,102,Mexican American,race_ethnicity
+1,0.07551419,0.0,102,Mexican American,race_ethnicity
+2,0.24707276,0.0392156862745098,102,Mexican American,race_ethnicity
+3,0.5322756,0.058823529411764705,102,Mexican American,race_ethnicity
+4,0.6905479,0.13725490196078433,102,Mexican American,race_ethnicity
+5,0.7819636,0.14705882352941177,102,Mexican American,race_ethnicity
+0,0.034679968,0.0,106,Non-Hispanic Asian,race_ethnicity
+1,0.09857718,0.01904761904761905,105,Non-Hispanic Asian,race_ethnicity
+2,0.31152624,0.05714285714285714,105,Non-Hispanic Asian,race_ethnicity
+3,0.5807487,0.08571428571428572,105,Non-Hispanic Asian,race_ethnicity
+4,0.71853,0.11428571428571428,105,Non-Hispanic Asian,race_ethnicity
+5,0.7896562,0.16037735849056603,106,Non-Hispanic Asian,race_ethnicity
+0,0.029986007,0.005952380952380952,168,Non-Hispanic Black,race_ethnicity
+1,0.119067416,0.03571428571428571,168,Non-Hispanic Black,race_ethnicity
+2,0.39112276,0.05952380952380952,168,Non-Hispanic Black,race_ethnicity
+3,0.59152293,0.08333333333333333,168,Non-Hispanic Black,race_ethnicity
+4,0.71152025,0.11904761904761904,168,Non-Hispanic Black,race_ethnicity
+5,0.79395837,0.16666666666666666,168,Non-Hispanic Black,race_ethnicity
+0,0.02814543,0.0,258,Non-Hispanic White,race_ethnicity
+1,0.06824832,0.007751937984496124,258,Non-Hispanic White,race_ethnicity
+2,0.19268543,0.023255813953488372,258,Non-Hispanic White,race_ethnicity
+3,0.40115884,0.04263565891472868,258,Non-Hispanic White,race_ethnicity
+4,0.56783664,0.05813953488372093,258,Non-Hispanic White,race_ethnicity
+5,0.71269757,0.08914728682170543,258,Non-Hispanic White,race_ethnicity
+0,0.02545237,0.0,39,Other / Multiracial,race_ethnicity
+1,0.06347904,0.0,37,Other / Multiracial,race_ethnicity
+2,0.21619621,0.0,39,Other / Multiracial,race_ethnicity
+3,0.42757732,0.05405405405405406,37,Other / Multiracial,race_ethnicity
+4,0.58547944,0.1282051282051282,39,Other / Multiracial,race_ethnicity
+5,0.7345461,0.10526315789473684,38,Other / Multiracial,race_ethnicity
+0,0.027972195,0.0,72,Other Hispanic,race_ethnicity
+1,0.070271246,0.014084507042253521,71,Other Hispanic,race_ethnicity
+2,0.28366074,0.041666666666666664,72,Other Hispanic,race_ethnicity
+3,0.5853198,0.04225352112676056,71,Other Hispanic,race_ethnicity
+4,0.712942,0.15492957746478872,71,Other Hispanic,race_ethnicity
+5,0.7856993,0.18055555555555555,72,Other Hispanic,race_ethnicity

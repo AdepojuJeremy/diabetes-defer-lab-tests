@@ -1,0 +1,34 @@
+{
+  "project_title": "Learning to Defer to Lab Tests: Cost-Sensitive Selective Prediction for Diabetes Screening Cascades",
+  "test_sample_size": 4458,
+  "test_positive_cases": 263,
+  "test_prevalence": 0.05899506505159264,
+  "primary_referral_rate": 0.3867205024674742,
+  "primary_sensitivity": 0.8174904942965779,
+  "primary_specificity": 0.9389749702026222,
+  "primary_balanced_accuracy": 0.8782327322496001,
+  "primary_precision": 0.4564755838641189,
+  "primary_missed_case_rate": 0.18250950570342206,
+  "top_gate_features": [
+    "age",
+    "systolic_bp",
+    "waist_cm",
+    "height_cm",
+    "bmi"
+  ],
+  "gate_specific_features": [
+    "systolic_bp",
+    "bmi",
+    "weight_kg",
+    "age",
+    "obesity"
+  ],
+  "gate_ig_ablation_spearman": 0.9852216748768471,
+  "gate_value_information_auroc": 0.8956797525205582,
+  "gate_value_information_auprc": 0.7607202639125028,
+  "helpful_case_referral_coverage": 0.8041237113402062,
+  "avoidable_false_negative_referral_coverage": 0.323943661971831,
+  "worst_feature_group_ablation": "demographics",
+  "worst_feature_group_sensitivity_change": -0.1026615969581749,
+  "sensitivity_under_20pct_added_missingness": 0.7437262357414449
+}

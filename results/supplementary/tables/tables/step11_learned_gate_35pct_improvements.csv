@@ -1,0 +1,3 @@
+comparison,sensitivity_difference,specificity_difference,balanced_accuracy_difference,missed_case_rate_difference,normalized_cost_difference,recovered_false_negative_difference
+learned_gate_vs_cheap_risk_referral,0.08365019011406849,-0.06102502979737778,0.011312580158345353,-0.08365019011406843,0.07245401525347694,22
+learned_gate_vs_uncertainty_referral,-0.09125475285171103,0.10870083432657929,0.008723040737434129,0.09125475285171103,-0.13750560789591748,-24

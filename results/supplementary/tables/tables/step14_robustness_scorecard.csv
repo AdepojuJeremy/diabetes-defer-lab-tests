@@ -1,0 +1,6 @@
+robustness_domain,metric,value
+Primary 35% operating point,Sensitivity,0.8174904942965779
+Primary 35% operating point,Specificity,0.9389749702026222
+20% added cheap-feature missingness,Sensitivity,0.7437262357414449
+Outcome-definition robustness,Minimum sensitivity,0.7884615384615384
+Feature-group ablation,Worst sensitivity change,-0.1026615969581749

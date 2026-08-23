@@ -1,0 +1,106 @@
+group_variable,group,n_interpreted,rank,feature,mean_abs_gate_ig
+sex,Female,509,1,age,1.8264161348342896
+sex,Female,509,2,systolic_bp,1.1349337100982666
+sex,Female,509,3,height_cm,0.8318135142326355
+sex,Female,509,4,waist_cm,0.830400824546814
+sex,Female,509,5,bmi,0.6627830266952515
+sex,Male,491,1,age,1.9449057579040527
+sex,Male,491,2,systolic_bp,1.218611478805542
+sex,Male,491,3,waist_cm,0.8600806593894958
+sex,Male,491,4,height_cm,0.7873933911323547
+sex,Male,491,5,bmi,0.5608779191970825
+race_ethnicity,Mexican American,127,1,age,1.616341233253479
+race_ethnicity,Mexican American,127,2,systolic_bp,1.1503955125808716
+race_ethnicity,Mexican American,127,3,waist_cm,0.9434168934822083
+race_ethnicity,Mexican American,127,4,height_cm,0.8761459589004517
+race_ethnicity,Mexican American,127,5,bmi,0.6472663283348083
+race_ethnicity,Non-Hispanic Asian,149,1,age,1.742942214012146
+race_ethnicity,Non-Hispanic Asian,149,2,race_ethnicity_code,1.3359967470169067
+race_ethnicity,Non-Hispanic Asian,149,3,systolic_bp,1.1308226585388184
+race_ethnicity,Non-Hispanic Asian,149,4,height_cm,0.8388577103614807
+race_ethnicity,Non-Hispanic Asian,149,5,waist_cm,0.7431773543357849
+race_ethnicity,Non-Hispanic Black,234,1,age,1.724318504333496
+race_ethnicity,Non-Hispanic Black,234,2,systolic_bp,1.2858288288116455
+race_ethnicity,Non-Hispanic Black,234,3,height_cm,0.7894496321678162
+race_ethnicity,Non-Hispanic Black,234,4,waist_cm,0.7873778939247131
+race_ethnicity,Non-Hispanic Black,234,5,bmi,0.6367772817611694
+race_ethnicity,Non-Hispanic White,329,1,age,2.2130515575408936
+race_ethnicity,Non-Hispanic White,329,2,systolic_bp,1.1976850032806396
+race_ethnicity,Non-Hispanic White,329,3,waist_cm,0.9671629071235657
+race_ethnicity,Non-Hispanic White,329,4,height_cm,0.7900895476341248
+race_ethnicity,Non-Hispanic White,329,5,bmi,0.6716199517250061
+race_ethnicity,Other / Multiracial,48,1,age,2.0324082374572754
+race_ethnicity,Other / Multiracial,48,2,systolic_bp,0.9866189360618591
+race_ethnicity,Other / Multiracial,48,3,waist_cm,0.8360186219215393
+race_ethnicity,Other / Multiracial,48,4,height_cm,0.757070004940033
+race_ethnicity,Other / Multiracial,48,5,bmi,0.6275594830513
+race_ethnicity,Other Hispanic,113,1,age,1.6856658458709717
+race_ethnicity,Other Hispanic,113,2,systolic_bp,1.0543965101242065
+race_ethnicity,Other Hispanic,113,3,height_cm,0.8206460475921631
+race_ethnicity,Other Hispanic,113,4,waist_cm,0.6358758807182312
+race_ethnicity,Other Hispanic,113,5,race_ethnicity_code,0.5852408409118652
+age_group,18-34,276,1,age,1.3075709342956543
+age_group,18-34,276,2,waist_cm,0.7504175305366516
+age_group,18-34,276,3,bmi,0.6048002243041992
+age_group,18-34,276,4,systolic_bp,0.5711466670036316
+age_group,18-34,276,5,weight_kg,0.4413069784641266
+age_group,35-44,144,1,systolic_bp,1.0678415298461914
+age_group,35-44,144,2,height_cm,0.9039101004600525
+age_group,35-44,144,3,waist_cm,0.8868237733840942
+age_group,35-44,144,4,age,0.7623116970062256
+age_group,35-44,144,5,bmi,0.6911484599113464
+age_group,45-54,143,1,systolic_bp,1.0750106573104858
+age_group,45-54,143,2,waist_cm,0.9828599095344543
+age_group,45-54,143,3,height_cm,0.9724958539009094
+age_group,45-54,143,4,age,0.6714261770248413
+age_group,45-54,143,5,race_ethnicity_code,0.6476528644561768
+age_group,55-64,209,1,age,2.1395058631896973
+age_group,55-64,209,2,systolic_bp,1.5147559642791748
+age_group,55-64,209,3,height_cm,0.9483771920204163
+age_group,55-64,209,4,waist_cm,0.8423053026199341
+age_group,55-64,209,5,race_ethnicity_code,0.6268433928489685
+age_group,65-74,135,1,age,3.483607530593872
+age_group,65-74,135,2,systolic_bp,1.6474446058273315
+age_group,65-74,135,3,height_cm,1.015311360359192
+age_group,65-74,135,4,waist_cm,0.8718924522399902
+age_group,65-74,135,5,bmi,0.5783731341362
+age_group,75+,93,1,age,4.30616569519043
+age_group,75+,93,2,systolic_bp,1.8483721017837524
+age_group,75+,93,3,height_cm,0.9936165809631348
+age_group,75+,93,4,waist_cm,0.8156899213790894
+age_group,75+,93,5,hypertension_range_bp,0.5369548201560974
+bmi_group,Normal,288,1,age,1.7437833547592163
+bmi_group,Normal,288,2,systolic_bp,1.0552070140838623
+bmi_group,Normal,288,3,waist_cm,0.6455139517784119
+bmi_group,Normal,288,4,height_cm,0.5193745493888855
+bmi_group,Normal,288,5,bmi,0.4977346658706665
+bmi_group,Obesity I,195,1,age,1.9606586694717407
+bmi_group,Obesity I,195,2,systolic_bp,1.2743436098098755
+bmi_group,Obesity I,195,3,height_cm,0.9865513443946838
+bmi_group,Obesity I,195,4,waist_cm,0.8623917698860168
+bmi_group,Obesity I,195,5,bmi,0.5625815391540527
+bmi_group,Obesity II,98,1,age,1.881535530090332
+bmi_group,Obesity II,98,2,waist_cm,1.4308019876480103
+bmi_group,Obesity II,98,3,bmi,1.266668438911438
+bmi_group,Obesity II,98,4,systolic_bp,1.189097285270691
+bmi_group,Obesity II,98,5,height_cm,0.9699844717979431
+bmi_group,Obesity III,74,1,waist_cm,2.2218334674835205
+bmi_group,Obesity III,74,2,bmi,2.0437817573547363
+bmi_group,Obesity III,74,3,age,1.7610394954681396
+bmi_group,Obesity III,74,4,weight_kg,1.348098874092102
+bmi_group,Obesity III,74,5,systolic_bp,1.1368221044540405
+bmi_group,Overweight,306,1,age,2.0678694248199463
+bmi_group,Overweight,306,2,systolic_bp,1.2620849609375
+bmi_group,Overweight,306,3,height_cm,0.8890653252601624
+bmi_group,Overweight,306,4,race_ethnicity_code,0.5719960331916809
+bmi_group,Overweight,306,5,hypertension_range_bp,0.5232114791870117
+uspstf_eligibility,Eligible,434,1,age,1.587816596031189
+uspstf_eligibility,Eligible,434,2,systolic_bp,1.3259668350219727
+uspstf_eligibility,Eligible,434,3,height_cm,1.0348742008209229
+uspstf_eligibility,Eligible,434,4,waist_cm,0.9042379260063171
+uspstf_eligibility,Eligible,434,5,bmi,0.6323745846748352
+uspstf_eligibility,Not eligible,544,1,age,2.1363167762756348
+uspstf_eligibility,Not eligible,544,2,systolic_bp,1.0609512329101562
+uspstf_eligibility,Not eligible,544,3,waist_cm,0.7824559211730957
+uspstf_eligibility,Not eligible,544,4,height_cm,0.5934401154518127
+uspstf_eligibility,Not eligible,544,5,bmi,0.5912382006645203

@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-08-18T20:32:02.930652+00:00",
+  "python_version": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]",
+  "python_executable": "/usr/bin/python3",
+  "platform": "Linux-6.8.0-1061-aws-x86_64-with-glibc2.35",
+  "machine": "x86_64",
+  "processor": "x86_64",
+  "torch_version": "2.13.0+cu130",
+  "cuda_available": true,
+  "torch_cuda_version": "13.0",
+  "gpu_name": "NVIDIA L4",
+  "gpu_count": 1,
+  "numpy_version": "2.2.6",
+  "pandas_version": "2.3.3",
+  "sklearn_version": "1.7.2",
+  "plotly_version": "6.9.0",
+  "scipy_version": "1.15.3",
+  "joblib_version": "1.5.3",
+  "fastparquet_version": "2026.5.0"
+}

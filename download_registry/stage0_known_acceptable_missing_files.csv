@@ -1,0 +1,2 @@
+cycle,module,filename,reason,decision
+2017-2018,OGTT,OGTT_J.XPT,"OGTT_J.XPT was not available from the expected 2017-2018 CDC NHANES DataFiles URL. This is acceptable because the primary project target uses HbA1c and fasting glucose, while OGTT is treated as an optional secondary lab feature.",continue_without_file

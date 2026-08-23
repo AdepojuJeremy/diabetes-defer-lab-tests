@@ -1,0 +1,16 @@
+Characteristic,Value
+"Age, years","45.00 [30.00, 61.00]"
+"BMI, kg/m²","27.60 [23.80, 32.20]"
+"Waist circumference, cm","96.20 [85.60, 107.20]"
+"Systolic blood pressure, mmHg","120.00 [110.67, 132.00]"
+"Diastolic blood pressure, mmHg","70.67 [63.33, 78.00]"
+"HbA1c, %","5.50 [5.20, 5.70]"
+"Fasting glucose, mg/dL","99.00 [93.00, 107.00]"
+"Two-hour glucose, mg/dL","108.00 [88.00, 135.00]"
+Screen-detected diabetes,951 (5.1%)
+Overweight or obesity,"12,560 (67.7%)"
+Obesity,"6,595 (35.5%)"
+Hypertension-range BP,"6,627 (36.6%)"
+USPSTF-like screening eligibility,"7,534 (40.6%)"
+Sex: Female,"9,822 (52.3%)"
+Sex: Male,"8,960 (47.7%)"

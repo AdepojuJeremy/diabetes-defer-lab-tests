@@ -1,0 +1,28 @@
+{
+  "project": "Learning to Defer to Lab Tests: Cost-Sensitive Selective Prediction for Diabetes Screening Cascades",
+  "status": "COMPLETE",
+  "failed_checks": [],
+  "primary_metrics": {
+    "n_test": 4458,
+    "positive_cases": 263,
+    "prevalence": 0.05899506505159264,
+    "referral_rate": 0.3867205024674742,
+    "accuracy": 0.9318079856437864,
+    "balanced_accuracy": 0.8782327322496001,
+    "sensitivity": 0.8174904942965779,
+    "specificity": 0.9389749702026222,
+    "precision": 0.4564755838641189,
+    "f1": 0.5858310626702997,
+    "true_positive": 215,
+    "true_negative": 3939,
+    "false_positive": 256,
+    "false_negative": 48,
+    "missed_case_rate": 0.18250950570342206
+  },
+  "final_tables": 6,
+  "final_html_figures": 5,
+  "final_png_figures": 5,
+  "artifacts_in_inventory": 272,
+  "checksummed_artifacts": 159,
+  "generated_at_utc": "2026-08-18T20:38:44.807576+00:00"
+}

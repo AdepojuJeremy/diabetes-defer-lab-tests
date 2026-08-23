@@ -1,0 +1,7 @@
+tier,model,validation_auroc,validation_auprc
+cheap,logistic_regression,0.756037512180525,0.11944159646638852
+cheap,random_forest,0.7429036453338039,0.1035088864900621
+cheap,hist_gradient_boosting,0.7080865258457313,0.09391710116489557
+full_lab,logistic_regression,0.987585455494088,0.8904430703418642
+full_lab,random_forest,0.9995175744834307,0.9893807800205645
+full_lab,hist_gradient_boosting,1.0,1.0

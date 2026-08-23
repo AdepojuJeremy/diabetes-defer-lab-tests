@@ -1,0 +1,76 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*
+*secret*
+*token*
+
+# Raw and derived datasets
+data/raw_nhanes/
+data/raw/
+data/interim/
+data/processed/
+data/cache/
+cache/
+
+# Large or regenerated model artifacts
+outputs/models/
+*.pt
+*.pth
+*.ckpt
+
+# Runtime logs
+outputs/logs/
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# Archives and backups
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
+
+# Local plotting/browser artifacts
+.kaleido/
+plotly_chrome/
+
+# Local machine-specific files
+jupyter_server_config.py
+jupyter_notebook_config.py

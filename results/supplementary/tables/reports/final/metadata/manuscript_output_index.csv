@@ -1,0 +1,15 @@
+type,artifact
+Methods,FINAL_METHODS_SUMMARY.md
+Results,FINAL_RESULTS.md
+Limitations,FINAL_LIMITATIONS.md
+Table,table_final_primary_performance_with_95ci.csv
+Table,table_2_policy_comparison_at_35pct_budget.csv
+Table,table_3_subgroup_fairness_and_equity.csv
+Table,table_4_equity_gap_summary.csv
+Table,table_5_interpretability.csv
+Table,table_6_robustness_summary.csv
+Figure,figure_1_sensitivity_lab_utilization_frontier
+Figure,figure_2_defer_gate_interpretability
+Figure,figure_3_budget_robustness
+Figure,figure_4_missingness_robustness
+Figure,figure_5_subgroup_under_referral

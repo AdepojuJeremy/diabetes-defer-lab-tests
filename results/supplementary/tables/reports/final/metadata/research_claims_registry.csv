@@ -1,0 +1,13 @@
+claim_id,claim,supporting_artifact,evidence_category
+C1,The learned cascade operates at approximately 35% laboratory utilization.,metadata/final_primary_35pct_metrics.json,Primary temporal test analysis
+C2,The learned cascade retains diagnostic sensitivity while limiting laboratory utilization.,tables/table_final_primary_performance_with_95ci.csv,Primary temporal test analysis
+C3,The learned defer policy defines a sensitivity-versus-laboratory-utilization frontier.,outputs/tables/step11_deployable_budget_sweep.csv,Budget and Pareto analysis
+C4,"Learned referral can be compared with risk-based, uncertainty-based, random, and oracle allocation policies.",tables/table_2_policy_comparison_at_35pct_budget.csv,Referral-policy comparison
+C5,Laboratory allocation and final diagnostic performance vary across clinically relevant subgroups.,tables/table_3_subgroup_fairness_and_equity.csv,Fairness and referral equity
+C6,Under-referral among true diabetes cases can differ across demographic and clinical subgroups.,tables/table_4_equity_gap_summary.csv,Fairness and referral equity
+C7,The defer gate uses a feature profile that is not identical to the cheap-stage diabetes risk predictor.,tables/table_5_interpretability.csv,Interpretability
+C8,The learned defer score can be evaluated as a value-of-information signal for identifying cases where laboratory testing changes the cheap-stage decision.,outputs/tables/step13_value_of_information_metrics.csv,Interpretability and value of information
+C9,Integrated Gradient feature rankings are cross-checked using feature-ablation importance.,outputs/tables/step13_ig_ablation_validation.csv,Interpretability validation
+C10,"The principal conclusions are evaluated under feature-group ablation, additional missingness, alternative outcome definitions, budget changes, and alternative clinical cost assumptions.",tables/table_6_robustness_summary.csv,Robustness analysis
+C11,Selected neural models are retrained under alternative laboratory-budget constraints to test whether results depend only on post-hoc thresholding.,outputs/tables/step14_selected_budget_retraining.csv,Training-time robustness
+C12,"The final analysis uses a temporal holdout, with 2017–2018 reserved for final testing.",FINAL_METHODS_SUMMARY.md,Experimental design

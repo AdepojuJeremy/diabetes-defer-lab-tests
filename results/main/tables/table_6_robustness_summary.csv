@@ -1,0 +1,4 @@
+Robustness analysis,Scenario,Primary result,Interpretation
+Feature-group ablation,demographics,-0.1026615969581749,Largest sensitivity change
+Cheap-feature missingness,20% additional missingness,0.7437262357414449,Mean sensitivity
+Outcome definition,Dual-lab complete cases,0.7884615384615384,Lowest sensitivity across definitions

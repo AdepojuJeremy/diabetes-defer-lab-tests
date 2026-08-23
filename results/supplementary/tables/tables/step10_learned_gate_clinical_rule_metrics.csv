@@ -1,0 +1,2 @@
+model,accuracy,balanced_accuracy,sensitivity,specificity,referral_rate,average_lab_cost,tp,tn,fp,fn
+learned_gate_plus_lab_rule,0.9313593539703903,0.8779943532269541,0.8174904942965779,0.9384982121573302,0.3873934499775684,0.3873934499775684,215,3937,258,48

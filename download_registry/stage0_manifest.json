@@ -1,0 +1,55 @@
+﻿{
+  "project": "Learning to Defer to Lab Tests",
+  "dataset": "NHANES 2011-2018",
+  "created_at": "2026-08-18 19:03:32",
+  "base_dir": "<PROJECT_ROOT>",
+  "raw_data_dir": "<PROJECT_ROOT>/data/raw_nhanes",
+  "documentation_dir": "<PROJECT_ROOT>/data/nhanes_documentation",
+  "registry_dir": "<PROJECT_ROOT>/download_registry",
+  "cycles": {
+    "2011": {
+      "cycle": "2011-2012",
+      "suffix": "G"
+    },
+    "2013": {
+      "cycle": "2013-2014",
+      "suffix": "H"
+    },
+    "2015": {
+      "cycle": "2015-2016",
+      "suffix": "I"
+    },
+    "2017": {
+      "cycle": "2017-2018",
+      "suffix": "J"
+    }
+  },
+  "core_modules": {
+    "DEMO": "Demographics",
+    "BMX": "Body measures",
+    "BPX": "Blood pressure examination",
+    "BPQ": "Blood pressure questionnaire",
+    "DIQ": "Diabetes questionnaire",
+    "GHB": "Glycohemoglobin / HbA1c",
+    "GLU": "Fasting glucose",
+    "OGTT": "Oral glucose tolerance test",
+    "SMQ": "Smoking questionnaire",
+    "PAQ": "Physical activity questionnaire"
+  },
+  "optional_modules": {
+    "ALQ": "Alcohol questionnaire",
+    "MCQ": "Medical conditions questionnaire"
+  },
+  "planned_xpt_files": 48,
+  "available_xpt_files": 47,
+  "missing_core_files": 1,
+  "download_plan_path": "<PROJECT_ROOT>/download_registry/stage0_nhanes_download_plan.csv",
+  "xpt_registry_path": "<PROJECT_ROOT>/download_registry/stage0_xpt_download_registry.csv",
+  "doc_registry_path": "<PROJECT_ROOT>/download_registry/stage0_documentation_download_registry.csv",
+  "summary_path": "<PROJECT_ROOT>/download_registry/stage0_download_summary.csv",
+  "read_test_path": "<PROJECT_ROOT>/download_registry/stage0_xpt_read_test.csv",
+  "updated_at": "2026-08-18 19:03:58",
+  "known_acceptable_missing_files_path": "<PROJECT_ROOT>/download_registry/stage0_known_acceptable_missing_files.csv",
+  "effective_missing_core_files": 0,
+  "stage0_decision": "Proceed. OGTT_J.XPT is treated as acceptable missing. HbA1c and fasting glucose remain available for the main diabetes screening target."
+}

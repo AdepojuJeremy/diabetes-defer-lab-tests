@@ -1,0 +1,2 @@
+cycle,module,filename,url,status,path,bytes,sha256,error
+2017-2018,OGTT,OGTT_J.XPT,https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OGTT_J.XPT,failed,/home/ubuntu/projects/diabetes-defer-lab-tests/data/raw_nhanes/OGTT_J.XPT,0,,404 Client Error: Not Found for url: https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/OGTT_J.XPT

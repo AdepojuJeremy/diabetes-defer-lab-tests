@@ -1,0 +1,176 @@
+{
+  "project_title": "Learning to Defer to Lab Tests: Cost-Sensitive Selective Prediction for Diabetes Screening Cascades",
+  "generated_at_utc": "2026-08-18T20:38:12.504730+00:00",
+  "primary_dataset": "NHANES 2011-2018",
+  "cycles": [
+    "2011-2012",
+    "2013-2014",
+    "2015-2016",
+    "2017-2018"
+  ],
+  "merge_key": "SEQN",
+  "train_cycles": [
+    "2011-2012",
+    "2013-2014"
+  ],
+  "validation_cycle": "2015-2016",
+  "test_cycle": "2017-2018",
+  "primary_target": "screen_detected_diabetes",
+  "known_diabetes_excluded": true,
+  "primary_lab_definition": {
+    "hba1c_threshold": 6.5,
+    "fasting_glucose_threshold": 126
+  },
+  "primary_target_lab_budget": 0.35,
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 2025,
+  "test_metrics": {
+    "n_test": 4458,
+    "positive_cases": 263,
+    "prevalence": 0.05899506505159264,
+    "referral_rate": 0.3867205024674742,
+    "accuracy": 0.9318079856437864,
+    "balanced_accuracy": 0.8782327322496001,
+    "sensitivity": 0.8174904942965779,
+    "specificity": 0.9389749702026222,
+    "precision": 0.4564755838641189,
+    "f1": 0.5858310626702997,
+    "true_positive": 215,
+    "true_negative": 3939,
+    "false_positive": 256,
+    "false_negative": 48,
+    "missed_case_rate": 0.18250950570342206
+  },
+  "step12_fairness_manifest": {
+    "analysis": "Subgroup fairness, calibration, referral equity, and under-referral",
+    "target": "screen_detected_diabetes",
+    "operating_budget": 0.35,
+    "subgroup_variables": [
+      "sex",
+      "race_ethnicity",
+      "age_group",
+      "bmi_group",
+      "uspstf_eligibility"
+    ],
+    "minimum_group_n": 100,
+    "minimum_positive_n": 20,
+    "bootstrap_replicates": 250,
+    "overall_referral_rate": 0.3867205024674742,
+    "overall_positive_case_referral_rate": 0.7414448669201521,
+    "overall_under_referral_rate_cases": 0.2585551330798479,
+    "overall_sensitivity": 0.8174904942965779,
+    "overall_specificity": 0.9389749702026222,
+    "overall_cheap_stage_ece": 0.32527379650445454,
+    "fairness_interpretation": "Referral parity is descriptive rather than an optimization target; positive-case referral coverage, under-referral, diagnostic sensitivity, specificity, and subgroup calibration are evaluated jointly."
+  },
+  "step13_interpretability_manifest": {
+    "analysis": "Interpretability of cheap predictor and learned defer gate",
+    "interpretation_method": "Integrated Gradients plus grouped feature ablation",
+    "ig_reference": "Mean transformed training participant",
+    "ig_steps": 24,
+    "interpreted_test_rows": 1000,
+    "top_cheap_features": [
+      "age",
+      "waist_cm",
+      "height_cm",
+      "race_ethnicity_code",
+      "sex"
+    ],
+    "top_gate_features": [
+      "age",
+      "systolic_bp",
+      "waist_cm",
+      "height_cm",
+      "bmi"
+    ],
+    "gate_specific_features": [
+      "systolic_bp",
+      "bmi",
+      "weight_kg",
+      "age",
+      "obesity"
+    ],
+    "cheap_ig_ablation_spearman": 0.9625615763546794,
+    "gate_ig_ablation_spearman": 0.9852216748768471,
+    "gate_value_information_auroc": 0.8956797525205582,
+    "gate_value_information_auprc": 0.7607202639125028,
+    "helpful_case_referral_coverage": 0.8041237113402062,
+    "avoidable_false_negative_referral_coverage": 0.323943661971831,
+    "referral_value_yield": 0.7238979118329466,
+    "full_lab_interpretability_note": "The full-lab branch is not emphasized because HbA1c and fasting glucose directly define the primary diagnostic outcome."
+  },
+  "step14_robustness_manifest": {
+    "analysis": "Ablations, robustness, stress tests, cost sensitivity, and selected retraining",
+    "primary_budget": 0.35,
+    "feature_groups_ablated": [
+      "demographics",
+      "anthropometrics",
+      "blood_pressure",
+      "screening_flags",
+      "lifestyle",
+      "medical_history"
+    ],
+    "budget_grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.15,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8,
+      0.85,
+      0.9,
+      0.95,
+      1.0
+    ],
+    "laboratory_cost_grid": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "false_negative_cost_grid": [
+      5.0,
+      10.0,
+      20.0
+    ],
+    "outcome_definitions": [
+      "Primary combined HbA1c or FPG",
+      "HbA1c-only definition",
+      "Fasting-glucose-only definition",
+      "Dual-lab complete cases"
+    ],
+    "missingness_levels": [
+      0.0,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "missingness_repeats": 10,
+    "selected_budget_retraining": true,
+    "retraining_budgets": [
+      0.2,
+      0.35,
+      0.5
+    ],
+    "retraining_minutes": 0.1489525000254313,
+    "baseline_referral_rate": 0.3867205024674742,
+    "baseline_sensitivity": 0.8174904942965779,
+    "baseline_specificity": 0.9389749702026222,
+    "worst_feature_group_ablation": "demographics",
+    "worst_feature_group_sensitivity_change": -0.1026615969581749,
+    "sensitivity_under_20pct_added_missingness": 0.7437262357414449
+  },
+  "environment_file": "environment_metadata.json",
+  "checksum_file": "artifact_sha256_checksums.csv",
+  "artifact_inventory_file": "complete_artifact_inventory.csv"
+}

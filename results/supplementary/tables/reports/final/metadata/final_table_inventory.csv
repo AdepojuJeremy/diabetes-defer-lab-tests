@@ -1,0 +1,7 @@
+file,rows,columns
+table_2_policy_comparison_at_35pct_budget.csv,3,25
+table_3_subgroup_fairness_and_equity.csv,21,13
+table_4_equity_gap_summary.csv,25,7
+table_5_interpretability.csv,29,4
+table_6_robustness_summary.csv,3,4
+table_final_primary_performance_with_95ci.csv,5,4

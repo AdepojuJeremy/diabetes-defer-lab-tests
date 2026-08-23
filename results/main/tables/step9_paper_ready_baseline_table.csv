@@ -1,0 +1,7 @@
+tier,model,auroc,auprc,sensitivity,specificity,balanced_accuracy,f1,brier
+cheap,logistic_regression,0.7675,0.1436,0.8479,0.5566,0.7023,0.1901,0.212
+cheap,random_forest,0.7551,0.1342,0.7186,0.6536,0.6861,0.1984,0.0652
+cheap,hist_gradient_boosting,0.7298,0.1175,0.7567,0.6088,0.6827,0.1893,0.0804
+full_lab,hist_gradient_boosting,1.0,1.0,0.9962,1.0,0.9981,0.9981,0.0
+full_lab,random_forest,0.9992,0.9861,0.9886,0.9952,0.9919,0.9576,0.0145
+full_lab,logistic_regression,0.9871,0.8881,0.9734,0.9249,0.9491,0.6139,0.0395

@@ -1,0 +1,10 @@
+artifact,path,exists
+step7_features,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/step7_feature_metadata.json,True
+step11_budget,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/step11_budget_sweep_manifest.json,True
+step11_completion,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/step11_completion_checks.json,True
+step12_fairness,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/step12_fairness_manifest.json,True
+step12_completion,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/step12_completion_checks.json,True
+step13_interpretability,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/step13_interpretability_manifest.json,True
+step13_completion,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/step13_completion_checks.json,True
+step14_robustness,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/step14_robustness_manifest.json,True
+step14_completion,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/step14_completion_checks.json,True

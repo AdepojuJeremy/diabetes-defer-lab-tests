@@ -1,0 +1,6 @@
+figure,html_exists,png_exists,html_path,png_path
+figure_1_sensitivity_lab_utilization_frontier,True,True,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/final/figures/figure_1_sensitivity_lab_utilization_frontier.html,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/final/figures/figure_1_sensitivity_lab_utilization_frontier.png
+figure_2_defer_gate_interpretability,True,True,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/final/figures/figure_2_defer_gate_interpretability.html,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/final/figures/figure_2_defer_gate_interpretability.png
+figure_3_budget_robustness,True,True,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/final/figures/figure_3_budget_robustness.html,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/final/figures/figure_3_budget_robustness.png
+figure_4_missingness_robustness,True,True,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/final/figures/figure_4_missingness_robustness.html,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/final/figures/figure_4_missingness_robustness.png
+figure_5_subgroup_under_referral,True,True,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/final/figures/figure_5_subgroup_under_referral.html,/home/ubuntu/projects/diabetes-defer-lab-tests/reports/final/figures/figure_5_subgroup_under_referral.png

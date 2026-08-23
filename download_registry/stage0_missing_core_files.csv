@@ -1,0 +1,2 @@
+cycle,module,filename,is_core,exists,bytes,path
+2017-2018,OGTT,OGTT_J.XPT,True,False,0,/home/ubuntu/projects/diabetes-defer-lab-tests/data/raw_nhanes/OGTT_J.XPT
