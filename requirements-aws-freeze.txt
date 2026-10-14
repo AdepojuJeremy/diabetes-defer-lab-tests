@@ -197,7 +197,7 @@ tornado==6.5.8
 tqdm==4.70.0
 traitlets==5.16.1
 triton==3.7.1
-Twisted==22.1.0
+Twisted==26.4.0rc2
 typing_extensions==4.16.0
 tzdata==2026.3
 ubuntu-drivers-common==0.0.0
